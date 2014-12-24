@@ -20,7 +20,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-0": {
-            "C2iS\\Component\\XmlExtractor": "src/"
+            "C2iS\\Component\\Xml": "src/"
         }
     },
     "extra": {
