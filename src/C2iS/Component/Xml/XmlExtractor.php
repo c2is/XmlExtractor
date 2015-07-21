@@ -30,7 +30,7 @@ class XmlExtractor
         } else {
             $dom = new \DOMDocument();
             set_error_handler(function() { /* ignore warning errors from DomDocument::loadXML*/ }, E_WARNING);
-            @$dom->loadXML($input);
+            $dom->loadXML($input);
             restore_error_handler();
         }
 
